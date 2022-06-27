@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=0-1">
+    <title> Ivanimation Website </title>
+    <link rel="stylesheet" href="C:\Users\ivans\Documents\.vscode\style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>  
+    <section class="header">
+      <div class="logo">
+        <a href="Ivanimationwebsite.html"><img src="C:Users/ivans/Pictures/bitmap.png" width="85" height="85"></a>
+
+      </div>
+
+      <nav>
+        <div class="nav-links">
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+
+
+          </ul>
+        </div> 
+      </nav>
+      <div class="text-box">
+        <h1>IVAN SKRABALO</h1>
+        <p>This website was made using HTML and CSS</p>
+        <a href="" class="hero-btn">Scroll down to find out more :)</a>
+      
+      </div>
+    </section>
+<!----course----->
+
+    <section class="course">
+      <h1 style="font-size: 50px;"> School Profile </h1>
+      <p>Going to European School of Brussels IV (EEBIV)</p>
+      
+      <div class="row">
+        <div class="course-col">
+          <h3>Comite des Eleves (CdE)</h3>
+          <p>Part of the Pupil's Committee, where I am Head of IT. Ongoing projects include a 'MyEEB4' app, a GameJam and troubleshooting Office365. </p>
+          </div>
+        <div class="course-col">
+            <h3>Brevet d'Initiation Aeronautique</h3>
+            <p>Enrolled in optional BIA course which will attest first level knowledge and theoretical skills in aeronautics.</p>
+            </div>
+        <div class="course-col">
+              <h3>CoSup member</h3>
+              <p>Head of IT in the Higher Council of Students (CoSup) of European Schools, where I also represent EEBIV.</p>
+              </div>
+      </div>
+    </section>
+
+<!---Campus section----->
+    <section class="campus">
+      <h1>Rowing</h1>
+      <p>Rowing competitvely since 2019 on a national level.
+        
+      <div class="row">
+        <div class="campus-col">
+        <img class="mySlides" src="C:Users/ivans/Pictures/IMG-20220409-WA0020.jpg copy1.jpg" style="width:100%">
+        <img class="mySlides" src="C:Users/ivans/Pictures/IMG-20220423-WA0001.jpg copy.jpg" style="width:100%">
+        <img class="mySlides" src="C:Users/ivans/Pictures/IMG-20220226-WA0042.jpg copy1.jpg" style="width:100%">
+        <img class="mySlides" src="C:Users/ivans/Pictures/IMG-20220226-WA0061.jpg copy.jpg" style="width:100%">
+        <img class="mySlides" src="C:Users/ivans/Pictures/WhatsApp Image 2022-05-15 at 5.43.10 PMcopy1.jpeg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+
+      <div class="Film">
+        <h1>Filmmaking</h1>
+        <p>Directed 2 short films which are published <a href="https://www.youtube.com/channel/UCnsKMCl_U-MPTlPZQ0lZCMg">HERE</a></p>
+      </div>
+
+
+
+    </section>
+<!-------new section-->
+    <section>
+      <h2>
+        LANGUAGES
+      </h2>
+
+
+    </section>
+
+
+
+</body>
+</html>
